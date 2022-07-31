@@ -1,0 +1,8 @@
+firstname,lastname,totalprice,depositpaid,checkin,checkout,additionalneeds,status
+,Depp,222,true,2022-07-30,2022-08-05,Breakfast,400
+Johnny,,222,true,2022-07-30,2022-08-05,Breakfast,400
+Johnny,Depp,222,true,,2022-08-05,Breakfast,400
+Johnny,Depp,222,true,2022-07-30,,Breakfast,400
+
+
+
