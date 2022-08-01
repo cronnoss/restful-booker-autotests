@@ -39,8 +39,8 @@ public class BaseTest {
     }
 
     @SneakyThrows
-        //@AfterEach
-    void cleanAfterTest() {
+    //@AfterAll
+    static void cleanAfterTest() {
         bookingService.deleteBooking(bookingId)
                 .expectedResult(Conditions.statusCode(201));
         log.info("bookingId was deleted: {}", bookingId);
